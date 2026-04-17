@@ -3,9 +3,9 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objs as go
 import plotly.express as px
-from scripts.data_fetcher import fetch_financial_data, extract_key_metrics
-from scripts.dcf_model import calculate_wacc, project_financials, compute_intrinsic_value
-from scripts.sensitivity import generate_sensitivity_matrix, compare_multiples
+from data_fetcher import fetch_financial_data, extract_key_metrics
+from dcf_model import calculate_wacc, project_financials, compute_intrinsic_value
+from sensitivity import generate_sensitivity_matrix, compare_multiples
 
 # --- Page Config ---
 st.set_page_config(page_title="Blanco DCF Framework", layout="wide", page_icon="💹")
