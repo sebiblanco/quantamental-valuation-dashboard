@@ -8,7 +8,7 @@ def generate_sensitivity_matrix(proj_df, current_metrics, base_wacc, target_metr
     Generates a sensitivity table for Intrinsic Share Price based on varying WACC and Target Multiple.
     Saves a heatmap visualization to the root folder.
     """
-    from .dcf_model import compute_intrinsic_value
+    from dcf_model import compute_intrinsic_value
     
     multipliers = [0.8, 0.9, 1.0, 1.1, 1.2]
     wacc_range = [base_wacc * m for m in multipliers]
