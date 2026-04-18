@@ -11,9 +11,10 @@ An automated, institutional-grade equity valuation terminal built in Python. Thi
 
 It features an adaptive sensitivity matrix that stress-tests intrinsic value against Weighted Average Cost of Capital (WACC) and user-selected exit multiples (e.g., EV/EBITDA, P/E, P/OCF).
 
-## 📸 Dashboard Preview
+##  Dashboard Preview
 
-![Dashboard](dashboard.png)(dashboard2.png)
+![Dashboard](dashboard.png)
+![Dashboard](dashboard2.png)
 
 ## Core Features
 * **Automated Financial Engineering:** Instantly extracts NWC, CapEx, D&A, and Operating Cash Flow to calculate Unlevered Free Cash Flow.
